@@ -1,0 +1,27 @@
+{
+  "name": "test.polymer",
+  "version": "1.0.0",
+  "description": "testing polymer",
+  "main": "gulpfile.js",
+  "scripts": {
+      "start": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbxtien/test.polymer.git"
+  },
+  "keywords": [
+    "polymer"
+  ],
+  "author": "sbxtien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbxtien/test.polymer/issues"
+  },
+  "homepage": "https://github.com/sbxtien/test.polymer#readme",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "require-dir": "^0.3.0"
+  }
+}

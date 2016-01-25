@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Rakuten Kobo - order tracker">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>testing polymer</title>
+
+    <script src="bower-components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="elements/elements.html">
+
+    <style is="custom-style" include="shared-styles">
+        body {
+            @apply(--paper-font-common-base);
+        }
+    </style>
+</head>
+
+<body unresolved>
+
+    <section>
+        <div>custom element</div>
+        <hello-world></hello-world>
+    </section>
+
+    <section>
+        <div>extending native elements</div>
+        <button is="super-button">test super-button</button>
+    </section>
+</body>
+
+</html>
